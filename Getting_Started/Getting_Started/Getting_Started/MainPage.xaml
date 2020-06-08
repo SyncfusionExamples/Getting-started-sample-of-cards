@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Getting_Started"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="Getting_Started.MainPage">
+
+    <cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#F0F0F0">
+
+        <cards:SfCardView>
+            <Label  Text="Cyan" BackgroundColor="Cyan"/>
+        </cards:SfCardView>
+
+        <cards:SfCardView>
+            <Label  Text="Yellow" BackgroundColor="Yellow"/>
+        </cards:SfCardView>
+
+        <cards:SfCardView>
+            <Label  Text="Orange" BackgroundColor="Orange"/>
+        </cards:SfCardView>
+
+    </cards:SfCardLayout>
+
+</ContentPage>
