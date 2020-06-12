@@ -4,16 +4,15 @@ This demo sample explains about how to use the cards control in Xamarin.Forms
 
 This section explains you the steps required to add content to SfCardView with indicator and add SfCardView to SCardLayout. This section covers only the minimal features needed to get started with the cards.
 
-**Adding cards reference**
 You can add cards reference using one of the following methods:
 
-**Method 1: Adding cards reference from nuget.org **
+**Method 1: Adding cards reference from nuget.org**
 
 Syncfusion Xamarin components are available in nuget.org. To add cards to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Xamarin.Cards, and then install it.
 
 Adding Xamarin.Forms Cards reference
 
-![Getting Started sample](getting-started_images/img3)
+![Getting Started](getting-started_image/img3.png)
 
 Note : Install the same version of the cards NuGet in all the projects.
 
@@ -28,11 +27,13 @@ If you prefer to manually reference the assemblies instead of referencing from N
 Location : {Installed location}/{version}/Xamarin/lib
 
 **PCL**
+
 Syncfusion.Cards.XForms.dll
 Syncfusion.Core.XForms.dll
 Syncfusion.Licensing.dll
 
 **Android**
+
 Syncfusion.Cards.XForms.Android.dll
 Syncfusion.Cards.XForms.dll
 Syncfusion.Core.XForms.dll
@@ -40,6 +41,7 @@ Syncfusion.Core.XForms.Android.dll
 Syncfusion.Licensing.dll
 
 **iOS**
+
 Syncfusion.Cards.XForms.iOS.dll
 Syncfusion.Cards.XForms.dll
 Syncfusion.Core.XForms.dll
@@ -47,6 +49,7 @@ Syncfusion.Core.XForms.iOS.dll
 Syncfusion.Licensing.dll
 
 **UWP**	
+
 Syncfusion.Cards.XForms.UWP.dll
 Syncfusion.Cards.XForms.dll
 Syncfusion.Core.XForms.dll
