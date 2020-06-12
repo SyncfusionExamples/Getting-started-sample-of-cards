@@ -12,7 +12,7 @@ Syncfusion Xamarin components are available in nuget.org. To add cards to your p
 
 Adding Xamarin.Forms Cards reference
 
-![Getting Started](getting-started_image/img3.png)
+![](https://github.com/SyncfusionExamples/Getting-started-sample-of-cards/blob/master/getting-started_images/img3.png)
 
 Note : Install the same version of the cards NuGet in all the projects.
 
@@ -25,36 +25,15 @@ Syncfusion provides Xamarin Toolbox. Using this toolbox, you can drag the SfCard
 If you prefer to manually reference the assemblies instead of referencing from NuGet, add the following assemblies in respective projects.
 
 Location : {Installed location}/{version}/Xamarin/lib
+|PCL|
 
-**PCL**
-
-Syncfusion.Cards.XForms.dll
-Syncfusion.Core.XForms.dll
-Syncfusion.Licensing.dll
-
-**Android**
-
-Syncfusion.Cards.XForms.Android.dll
-Syncfusion.Cards.XForms.dll
-Syncfusion.Core.XForms.dll
-Syncfusion.Core.XForms.Android.dll
-Syncfusion.Licensing.dll
-
-**iOS**
-
-Syncfusion.Cards.XForms.iOS.dll
-Syncfusion.Cards.XForms.dll
-Syncfusion.Core.XForms.dll
-Syncfusion.Core.XForms.iOS.dll
-Syncfusion.Licensing.dll
-
-**UWP**	
-
-Syncfusion.Cards.XForms.UWP.dll
-Syncfusion.Cards.XForms.dll
-Syncfusion.Core.XForms.dll
-Syncfusion.Core.XForms.UWP.dll
-Syncfusion.Licensing.dll
+| PCL | Android | iOS | UWP |
+| --------------- | -------- | -------- | -------------|
+|Syncfusion.Cards.XForms.dll|Syncfusion.Cards.XForms.Android.dll|Syncfusion.Cards.XForms.iOS.dll|Syncfusion.Cards.XForms.UWP.dll|
+|Syncfusion.Core.XForms.dll|Syncfusion.Core.XForms.dll|Syncfusion.Cards.XForms.dll|Syncfusion.Cards.XForms.dll|
+|Syncfusion.Licensing.dll|Syncfusion.Core.XForms.Android.dll|Syncfusion.Core.XForms.dll|Syncfusion.Core.XForms.dll|
+||Syncfusion.Licensing.dll|Syncfusion.Core.XForms.iOS.dll|Syncfusion.Core.XForms.UWP.dll|
+|||Syncfusion.Licensing.dll|Syncfusion.Licensing.dll|
 
 NOTE : To know more about obtaining our components, refer to these links for Mac and Windows.
 
@@ -174,4 +153,4 @@ Initialize a card layout with card view as shown in the following code.
 
 </cards:SfCardLayout>
 ```
-![](getting-started_images/layout)
+![](https://github.com/SyncfusionExamples/Getting-started-sample-of-cards/blob/master/getting-started_images/layout.gif)
