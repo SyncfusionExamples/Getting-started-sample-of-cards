@@ -6,7 +6,12 @@
              x:Class="Getting_Started.MainPage">
 
     <cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#F0F0F0">
-
+		<cards:SfCardLayout.Margin>
+            <OnPlatform x:TypeArguments="Thickness">
+                <On Platform="iOS"
+                    Value="0,50,0,50" />
+            </OnPlatform>
+        </cards:SfCardLayout.Margin>
         <cards:SfCardView>
             <Label  Text="Cyan" BackgroundColor="Cyan"/>
         </cards:SfCardView>
