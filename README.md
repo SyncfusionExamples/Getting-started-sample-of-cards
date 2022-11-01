@@ -1,6 +1,6 @@
 # Getting Started with Xamarin Cards
 
-This repository contains sample for how to get started with the [Syncfusion Xamarin.Forms Card View](https://help.syncfusion.com/xamarin/cards/getting-started) control. The Cards control allows you to create a dismissible card or a stack of cards where one card is visible at a time until you swipe to see the next card.
+This repository contains sample to get started with the [Syncfusion Xamarin.Forms Card View](https://help.syncfusion.com/xamarin/cards/getting-started) control. The Cards control allows you to create a dismissible card or a stack of cards where one card is visible at a time until you swipe to see the next card.
 
 ## Syncfusion controls:
 
